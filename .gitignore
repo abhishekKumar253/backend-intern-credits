@@ -1,0 +1,46 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+
+# Virtual environment folder
+venv/
+*.venv/
+.venv/
+
+# Database files (agar SQLite use ho)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python egg/distribution
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Postman export (optional)
+*.postman_collection.json
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
